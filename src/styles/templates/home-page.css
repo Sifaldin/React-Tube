@@ -1,0 +1,71 @@
+.home-page {
+  height: 100%;
+}
+
+.home-page .recomended {
+  margin: 0 auto;
+  padding-top: 32px;
+  max-width: 320px;
+}
+
+.home-page .recomended > .title {
+  padding-left: 8px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  letter-spacing: -0.75px;
+}
+
+/* YouTube breakpoints */
+@media only screen and (min-width: 500px) {
+  .home-page .recomended {
+    max-width: calc(
+      2 * 320px + 16px
+    ); /* the max width is 2 columns + the gap */
+  }
+  .home-page .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+  }
+}
+
+@media only screen and (min-width: 660px) {
+  .home-page .recomended {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .home-page .recomended .title {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .home-page .recomended {
+    max-width: calc(3 * 320px + 16px);
+  }
+
+  .home-page .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .home-page .recomended {
+    max-width: calc(4 * 320px + 16px);
+  }
+
+  .home-page .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .home-page .recomended {
+    max-width: calc(5 * 320px + 16px);
+  }
+
+  .home-page .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,45 @@
+.video-page {
+  padding-bottom: 32px;
+}
+
+.video-page .video-container {
+  background-color: black;
+  margin-bottom: 24px;
+}
+
+.video-page .body-container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.video-page video {
+  display: block; /* To remove a small space on the bottom */
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.video-page .channel-thumb {
+  width: 48px !important; /* overrides meta-data size */
+}
+
+.video-page .title {
+  font-size: 21px;
+}
+
+.video-page .description {
+  font-size: 14px;
+  max-width: 640px;
+}
+
+/* YouTube breakpoints */
+@media only screen and (min-width: 900px) {
+  .video-page video {
+    width: 850px;
+  }
+  .video-page .body-container {
+    padding: 0;
+    max-width: 960px;
+  }
+}

@@ -1,0 +1,25 @@
+.search-bar input {
+  box-sizing: border-box;
+  display: inline-block;
+  /* Update SDA8, i will try to remember this one later*/
+  width: calc(100% - 64px - 10px); /* 48px is the width of the search button */
+  height: 36px;
+  padding: 8px;
+  font-size: 14px;
+  border: solid 0.5px #828282;
+  outline: none;
+}
+
+.search-bar a {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 64px;
+  height: 36px;
+  background-color: #f8f8f8;
+  color: #828282;
+  border: solid 0.5px #828282;
+  text-align: center;
+  vertical-align: top;
+  text-decoration: none;
+  line-height: 36px;
+}

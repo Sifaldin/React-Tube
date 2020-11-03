@@ -1,0 +1,16 @@
+.card {
+  user-select: none;
+  cursor: default;
+}
+
+.card .thumbnail {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 900px) {
+  .card .meta-data {
+    padding: 0;
+  }
+}

@@ -1,0 +1,37 @@
+.header {
+  padding: 12px 16px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* each fr is a equal space column. */
+  grid-column-gap: 16px;
+}
+
+.header.light {
+  background-color: white;
+}
+
+.header.dark {
+  background-color: #252525;
+}
+
+.header img {
+  max-width: 120px;
+  height: auto;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.header.dark .search-bar input {
+  background-color: #121212;
+  color: #f8f8f8;
+}
+
+.header.dark .search-bar button {
+  background-color: #363636;
+  color: #727272;
+}
+
+@media only screen and (min-width: 660px) {
+  .header {
+    grid-template-columns: 1fr 1fr 1fr; /* each fr is a equal space column. */
+  }
+}

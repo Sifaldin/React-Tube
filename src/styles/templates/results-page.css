@@ -1,0 +1,39 @@
+.result-page {
+  height: 100%; /* 100vh forces to cover the screen. 100% only cover the screen if there is a lot of content. */
+}
+
+.result-page .container {
+  margin: 0 auto;
+  padding-top: 32px;
+  max-width: 320px;
+}
+
+.result-page .container > .title {
+  padding-left: 8px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  letter-spacing: -0.75px;
+}
+
+/* YouTube breakpoints */
+@media only screen and (min-width: 500px) {
+  .result-page .container {
+    max-width: 100%;
+    margin-left: 16px;
+  }
+
+  .result-page .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .result-page .card .preview {
+    width: auto;
+    height: 160px;
+    margin-right: 8px;
+  }
+
+  .result-page .card .channel-thumb {
+    display: none;
+  }
+}

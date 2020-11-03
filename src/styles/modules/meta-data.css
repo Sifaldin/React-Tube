@@ -1,0 +1,33 @@
+.meta-data {
+  display: flex;
+  padding: 0 8px;
+  flex-direction: row;
+}
+
+.meta-data .left {
+  margin-right: 8px;
+}
+
+.meta-data .channel-thumb {
+  border-radius: 500px; /* A high radius to make it round */
+  width: 36px;
+  height: auto;
+}
+
+.meta-data .title,
+.meta-data .description {
+  font-size: 14px;
+}
+
+.meta-data .title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.meta-data .description {
+  margin-bottom: 4px;
+}
+
+.meta-data .description {
+  color: grey;
+}

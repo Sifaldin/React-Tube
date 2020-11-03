@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+h1 {
+  letter-spacing: -0.5px; /* to make look closer to the original YouTube font */
+}
+
+h1,
+p {
+  margin-top: 0;
+}
