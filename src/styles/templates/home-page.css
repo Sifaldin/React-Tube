@@ -2,13 +2,13 @@
   height: 100%;
 }
 
-.home-page .recomended {
+.home-page .recommended {
   margin: 0 auto;
   padding-top: 32px;
   max-width: 320px;
 }
 
-.home-page .recomended > .title {
+.home-page .recommended > .title {
   padding-left: 8px;
   margin-bottom: 16px;
   font-size: 20px;
@@ -17,7 +17,7 @@
 
 /* YouTube breakpoints */
 @media only screen and (min-width: 500px) {
-  .home-page .recomended {
+  .home-page .recommended {
     max-width: calc(
       2 * 320px + 16px
     ); /* the max width is 2 columns + the gap */
@@ -30,18 +30,18 @@
 }
 
 @media only screen and (min-width: 660px) {
-  .home-page .recomended {
+  .home-page .recommended {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .home-page .recomended .title {
+  .home-page .recommended .title {
     padding-left: 0;
   }
 }
 
 @media only screen and (min-width: 900px) {
-  .home-page .recomended {
+  .home-page .recommended {
     max-width: calc(3 * 320px + 16px);
   }
 
@@ -51,7 +51,7 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .home-page .recomended {
+  .home-page .recommended {
     max-width: calc(4 * 320px + 16px);
   }
 
@@ -61,7 +61,7 @@
 }
 
 @media only screen and (min-width: 1366px) {
-  .home-page .recomended {
+  .home-page .recommended {
     max-width: calc(5 * 320px + 16px);
   }
 
