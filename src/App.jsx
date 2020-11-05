@@ -22,13 +22,11 @@ export default function App() {
         <Switch>
 
           <Route path="/" exact render={() => <Home information={information} />} />
-
           <Route path="/video/:id" render={({ match }) => (<Video match={match} information={information} />)} />
-
-           <Route path="/results/:query" render={({ match }) => (<Search match={match} information={information} />)}/>
+          <Route path="/results/:query" render={({ match }) => (<Search match={match} information={information} />)} />
 
         </Switch>
-
+        
       </div>
 
     </Router>

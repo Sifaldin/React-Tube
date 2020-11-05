@@ -35,7 +35,7 @@ export default function Video({ match, information }) {
 
     <div className="video-page">
 
-      <Header />
+      <Header hasLightTheme = {false}/>
 
       <div className="video-container">
         <video controls>
